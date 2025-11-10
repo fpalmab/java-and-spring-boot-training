@@ -1,19 +1,18 @@
 package com.example.builderpatternexample;
 
 import lombok.Getter;
-import lombok.Setter;
 
 
 //Classic Builder in Java
 public class User {
     @Getter
-    private String firstName;
+    private final String firstName;
     @Getter
-    private String lastName;
+    private final String lastName;
     @Getter
-    private String email;
+    private final String email;
     @Getter
-    private String role;
+    private final String role;
 
     public User(UserBuilder builder) {
         this.firstName = builder.firstName;
