@@ -25,8 +25,6 @@ public class BuilderPatternExampleApplication {
                 .build();
 
         logger.info("The first name of the user is {}",teacher.getFirstName());
-
-
     }
 
 }
